@@ -25,10 +25,10 @@ $('img.cat-pic').click(function(){
 });
 
 $('button#reset').click(function(){
-	count.left  = 0;
-	count.right = 0;
-	updateLabel('left', count.left);
-	updateLabel('right',count.right);
+    count.left  = 0;
+    count.right = 0;
+    updateLabel('left', count.left);
+    updateLabel('right',count.right);
 });
 
 // Main
